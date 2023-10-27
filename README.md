@@ -6,6 +6,8 @@ The code computes the s parameter of the ECDSA signature for a given message and
 
 The ECDSA algorithm is widely used in the crypto community, especially in Ethereum for generating signatures.
 
+You can verify the signature as well with the provided code.
+
 ## Dependencies
 secrets: For generating a random nonce.
 sha3: Provides the keccak_256 hashing function.
