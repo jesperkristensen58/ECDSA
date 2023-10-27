@@ -13,8 +13,7 @@ ecpy: A Python library to work with elliptic curves.
 Usage
 To get the r and s values of the ECDSA signature for a message:
 
-```python
-Copy code
+```python Copy code
 message = "Your Message Here!"
 private_key = Your_Private_Key_Here
 r, s, public_key = compute_s(message, private_key)
